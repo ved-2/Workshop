@@ -4,6 +4,7 @@ import Welcome from './component/Welcome';
 import Stateexample from './component/State'
 import JSXAttribute from './component/jsxAttribute';
 import JSXFunction from './component/jsxFunction';
+import JSXFunctionWithContorolStmt from './component/jsxFunction_ControlStmt';
 function App() {
   return (
     <div className="App">
@@ -25,6 +26,7 @@ function App() {
         <Stateexample/>
         <JSXAttribute/>
         <JSXFunction/>
+        <JSXFunctionWithContorolStmt/>
       </header>
     </div>
   );
