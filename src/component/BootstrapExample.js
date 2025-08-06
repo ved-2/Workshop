@@ -9,12 +9,12 @@ export default function BootstrapExample() {
       <p>Bootstrap Table</p>
       <table class="table table-bordered table-dark">
         <tr>
-          <th>First Name</th>
           <th>Last Name</th>
+          <th>First Name</th>
         </tr>
         <tr>
-          <td>Rohan</td>
-          <td>Prajapati</td>
+          <td>Kolte</td>
+          <td>Vedant</td>
         </tr>
       </table>
            
