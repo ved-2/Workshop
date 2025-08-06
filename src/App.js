@@ -7,6 +7,7 @@ import JSXFunction from "./component/jsxFunction";
 import JSXFunctionWithContorolStmt from "./component/jsxFunction_ControlStmt";
 import BootstrapExample from "./component/BootstrapExample";
 import Counter from "./component/Counter";
+import UseStateDemo from "./component/useStateDemo";
 function App() {
   return (
     <div className="App">
@@ -31,6 +32,7 @@ function App() {
         <JSXFunctionWithContorolStmt />
         <BootstrapExample />
         <Counter/>
+        <UseStateDemo/>
       </header>
     </div>
   );
