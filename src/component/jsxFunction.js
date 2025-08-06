@@ -1,5 +1,5 @@
 export default function JSXFunction(){
-    const user={firstName: 'Rohan', lastName: 'Prajapati'};
+    const user={firstName: 'Vedant', lastName: 'Kolte'};
     function FormatName(user){
         return (user.firstName + " " + user.lastName + "");
     }
