@@ -5,6 +5,7 @@ import Stateexample from './component/State'
 import JSXAttribute from './component/jsxAttribute';
 import JSXFunction from './component/jsxFunction';
 import JSXFunctionWithContorolStmt from './component/jsxFunction_ControlStmt';
+import BootstrapExample from './component/BootstrapExample';
 function App() {
   return (
     <div className="App">
@@ -14,7 +15,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
-          className="App-link"
+          className="App-link" //cccvvvv
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
@@ -27,6 +28,7 @@ function App() {
         <JSXAttribute/>
         <JSXFunction/>
         <JSXFunctionWithContorolStmt/>
+        <BootstrapExample/>
       </header>
     </div>
   );
