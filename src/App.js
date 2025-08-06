@@ -5,6 +5,8 @@ import Stateexample from "./component/State";
 import JSXAttribute from "./component/jsxAttribute";
 import JSXFunction from "./component/jsxFunction";
 import JSXFunctionWithContorolStmt from "./component/jsxFunction_ControlStmt";
+import Counter from "./component/Counter";
+import UseStateDemo from "./component/useStateDemo";
 function App() {
   return (
     <div className="App">
@@ -28,6 +30,8 @@ function App() {
         <JSXAttribute />
         <JSXFunction />
         <JSXFunctionWithContorolStmt />
+        <Counter />
+        <UseStateDemo />
       </header>
     </div>
   );

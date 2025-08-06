@@ -22,6 +22,7 @@ const UseStateDemo = () => {
         onChange={(e) => setSecond(e.target.value)}
       />
       <button onClick={handleAdd}>Add</button>
+      <br />
       <h1>Ans: {sum}</h1>
     </div>
   );
