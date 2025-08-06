@@ -23,6 +23,7 @@ function App() {
           Learn React
         </a>
         <h1>Greet Functional Component</h1>
+        <h1>Greet Functional Component</h1>
         <Welcome />
         <Stateexample/>
         <JSXAttribute/>
