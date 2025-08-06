@@ -1,10 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import Welcome from './component/Welcome';
-import Stateexample from './component/State'
-import JSXAttribute from './component/jsxAttribute';
-import JSXFunction from './component/jsxFunction';
-import JSXFunctionWithContorolStmt from './component/jsxFunction_ControlStmt';
+import logo from "./logo.svg";
+import "./App.css";
+import Welcome from "./component/Welcome";
+import Stateexample from "./component/State";
+import JSXAttribute from "./component/jsxAttribute";
+import JSXFunction from "./component/jsxFunction";
+import JSXFunctionWithContorolStmt from "./component/jsxFunction_ControlStmt";
+import BootstrapExample from "./component/BootstrapExample";
+import Counter from "./component/Counter";
 function App() {
   return (
     <div className="App">
@@ -23,10 +25,12 @@ function App() {
         </a>
         <h1>Greet Functional Component</h1>
         <Welcome />
-        <Stateexample/>
-        <JSXAttribute/>
-        <JSXFunction/>
-        <JSXFunctionWithContorolStmt/>
+        <Stateexample />
+        <JSXAttribute />
+        <JSXFunction />
+        <JSXFunctionWithContorolStmt />
+        <BootstrapExample />
+        <Counter/>
       </header>
     </div>
   );
